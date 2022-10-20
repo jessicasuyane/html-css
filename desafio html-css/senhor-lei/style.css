@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/*
+body{
+    font-family: 'Fredoka';
+    margin: 0;
+    background-image: url(img/fundo.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.secao {
+    background-color: white;
+}
+.secao-topo{
+    margin: 0;
+    padding: 3px;
+    font-weight: bold;
+}
+.secao-largura-limitada{
+    text-indent:200px;
+    
+}
+.secao-background-capa{
+    background-image: url(img/capa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding-top: 5px;
+}
+.secao-background-conteudo{
+    text-align: right;
+    margin-right: 200px;
+
+}
+.secao-conteudo{
+    background-color: white;
+    padding: 50px 220px;
+    text-align: justify;
+    line-height: 30px;
+}
+.img-conteudo{
+    width: 250px;
+    height: 180px
+    
+}
+span{
+    border-left: 2px solid rgba(37, 36, 34, 0.465);
+}
+.secao-background-divisao h3{
+    margin: 60px ;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding: 50px 0;
+    
+}
+h1, h2, h3{
+    margin: 0;
+}
+*/
+
+body {
+    margin: 0;
+    font-family: 'Fredoka', sans-serif;
+  }
+  
+  /* Topo */
+  .secao-topo {
+    border-bottom: 1px solid #d5d5d5;
+  }
+  
+  .secao-largura-limitada {
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  .secao-topo p {
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  /* Seção inicial com imagem de fundo */
+  .secao-background-capa {
+    min-height: 500px;
+    background-image: url('img/capa.jpg');
+    background-size: cover;
+  }
+  .secao-background-conteudo {
+    text-align: right;
+    padding: 50px 20px;
+  }
+  
+  /* Seção conteúdo */
+  .secao-conteudo {
+    padding: 50px 20px;
+  }
+  .img-conteudo {
+    width: 250px;
+    height: 180px;
+  }
+  
+  .secao-conteudo span {
+    border-left: 1px solid;
+    padding-left: 10px;
+    font-size: 20px;
+  }
+  
+  /* Seção com imagem de fundo e texto */
+  .secao-background-divisao {
+    padding: 50px 0;
+    text-align: center;
+    background-image: url('img/fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .secao-background-divisao h3{
+    font-size: 36px;
+    background-color: #fff;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 20px;
+  }

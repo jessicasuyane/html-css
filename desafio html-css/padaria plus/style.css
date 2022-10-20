@@ -1,0 +1,60 @@
+@charset "UTF-8";
+.body{ 
+    background-color: white;
+    
+}
+.secao{
+    width: 700px;
+    margin: 20px auto;
+    text-align: center;
+    border-bottom: 2px solid rgba(151, 142, 142, 0.73);
+}
+.imagem-logotipo{
+    width: 200px;
+}
+a{
+    margin: 10px 10px;
+    color: rgba(80, 54, 54, 0.701);
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 35px;
+}
+h2{
+    color: rgba(218, 128, 10, 0.701);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+.secao-destaque h3{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    }
+.imagem-banner{
+    width: 700px;
+}
+.secao-destaque{
+    width: 650px;
+    background-color: rgba(139, 83, 11, 0.796);
+    padding: 30px;}
+
+.secao-destaque h4{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.secao-destaque p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+    
+}
+    
+.imagem-paes{
+    width: 400px;
+}
+.imagem-bolo{
+    width: 400px;
+}

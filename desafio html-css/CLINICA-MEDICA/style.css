@@ -1,0 +1,248 @@
+@charset "UTF-8";
+*{
+    box-sizing:border-box;
+}
+.container{
+    max-width: 1024px;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #0000008c;
+}
+.topo{
+    background-color: rgba(24, 161, 161, 0.705);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.topo .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 60px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.topo-titulo {
+    font-weight: 600;
+    font-size: 28px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+header img{
+    width: 150px;
+    height: 80px;
+    margin-left: 100px;
+    
+}
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+nav a{
+    text-decoration: none; 
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+a:hover{
+    color: rgba(4, 40, 40, 0.775);
+}
+.secao-principal{
+    background-image: url(assets/recepcao.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+}
+.secao-principal h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 40px;
+    margin-top: 150px;
+}
+.secao-sobre{
+    width: 100%;
+    margin-left: 110px;
+}
+.secao-sobre h2{
+    text-align: center;
+}
+.secao-sobre p{
+    max-width: 640px;
+    text-align: center;
+    margin: auto;
+    line-height: 25px;
+}
+.box-sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.secao-limitada{
+    width: 100%;
+}
+.secao-limitada h3{
+    text-align: center;
+    padding-left: 250px;
+}
+.secao-limitada p{
+    text-align: center;
+    margin: auto;
+    max-width: 800px;
+    padding-left: 250px;
+    line-height: 25px;
+
+}
+.secao-img{
+    display: flex;
+    width: calc(100% / 3 - 40px);
+    margin: 0px 0px 0px 100px;
+    width: 100%;
+    
+}
+.secao-img img{
+    width: 300px;
+    
+}
+figure{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.222);
+   
+}
+figcaption{
+    text-align: center;
+    padding: 18px; 
+    text-transform: uppercase;
+}
+.botao a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(16, 190, 190);
+    color: #fff;
+    padding: 10px 20px;
+}
+.botao{
+    text-align: center;
+    margin-top: 24px;
+}
+#contato{
+    text-align: center;
+    padding-left: 160px;
+    padding-top: 40px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(97, 190, 190);
+    max-width: 1024px;
+    margin: auto;
+    color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+}
+@media (max-width: 425px){
+    .topo a{
+        font-size: 10px;
+      }
+      .topo img{
+         width: 80px;
+         height: 30px;
+      }
+      .secao-sobre {
+         max-width: 400px;
+         margin: auto;
+      }
+      .secao-limitada{
+         max-width: 400px;
+         margin: auto;
+        
+      }
+      .secao-limitada p{
+         padding-left: 0;
+         text-align: center;
+      }
+      .secao-limitada h3{
+         padding-left: 0;
+      }
+      .secao-img{
+         display: flex;
+         flex-direction: column;
+         width: 380px;
+         margin: auto;
+      }
+      #contato{
+         margin: auto;
+         padding-left: 0;
+      }
+}
+@media( max-width: 768px){
+    .topo a{
+       font-size: 15px;
+     }
+     .topo img{
+        width: 100px;
+        height: 50px;
+     }
+     .secao-sobre {
+        max-width: 768px;
+        margin: auto;
+     }
+     .secao-limitada{
+        max-width: 768px;
+        margin: auto;
+       
+     }
+     .secao-limitada p{
+        padding-left: 0;
+        text-align: center;
+     }
+     .secao-limitada h3{
+        padding-left: 0;
+     }
+     .secao-img{
+        display: flex;
+        flex-direction: column;
+        width: 380px;
+        margin: auto;
+     }
+     #contato{
+        margin: auto;
+        padding-left: 0;
+     }
+
+    }
+@media (max-width: 1024px){
+    body{
+        max-width: 1024px;
+        width: 100%;
+    }
+    .secao-sobre {
+        max-width: 1024px;
+        margin: auto;
+     }
+     .secao-limitada{
+        max-width: 1024px;
+        margin: auto;
+     }
+     .secao-limitada p{
+        padding-left: 0;
+        text-align: center;
+     }
+     .secao-limitada h3{
+        padding-left: 0;
+     }
+    .secao-img{
+        display: flex;
+        flex-flow: row wrap;
+        margin: auto;
+        justify-content: center;
+    }
+}

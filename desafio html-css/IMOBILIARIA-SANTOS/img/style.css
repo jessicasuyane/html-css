@@ -1,0 +1,127 @@
+@charset "UTF-8";
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 28px;
+    margin: 10px auto;
+    width: 980px;
+}
+.cabecalho{
+    background-color: rgba(67, 207, 207, 0.57);
+    text-align: center;
+    padding: 30px 0px;
+    margin: 0px;
+}
+.p-link{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+a{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1d1d1d;
+    border-bottom: 2px solid #1d1d1d;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+.img-cabecalho{
+    width: 150px;
+    height: 150px;
+
+  
+}
+.sobre{
+    text-align: center;
+    padding: 30px  0px;
+   
+}
+.img-sobre{
+    padding-top: 0px;
+    margin-top: 50px;
+   
+}
+span{
+    font-weight: bold;
+}
+h1{
+    color: #1d1d1d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5px;
+}
+.h2-sobre{
+    font-weight: normal;
+    color: #1c81c0;
+    margin-top: 0;
+    
+}
+
+.sobre{
+    padding: 30px 0px;
+    text-align: center;
+}
+.p-sobre{
+    text-align: justify;
+    height: 980 ;
+}
+ .texto-azul {
+    color: #1c81c1;
+    font-weight: bold;
+    
+}
+.img-assinatura{
+    width: 500px;
+    height: 300px;
+}
+.servicos, .contato{
+    background-color: #1c81c1;
+    text-align: center;
+ 
+
+}
+.h3-servicos{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    line-height: 42px;
+}
+.p-servicos{
+ font-size: 22px;
+ line-height: 42px;
+ text-align: center;
+ color: white;
+ width: 700px;
+}
+.texto-amarelo{
+    color: #fff81b;
+}
+.lista-servicos {
+    width: 135px;
+    margin: 40px auto 40px;
+}
+.item-lista-servicos {
+    font-size: 22px;
+    line-height: 42px;
+    text-align: left;
+    color: white;
+}
+.corretores{
+    text-align: center;
+}
+.texto-azul{
+    color: #1c81c1;
+}
+.p-contato{
+    color: #fff;
+    background-color: #1d1d1d;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+img{
+    width: 450px;
+}
